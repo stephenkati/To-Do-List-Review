@@ -30,7 +30,6 @@ export default class Task {
       document.querySelector('#task').value = '';
     }
 
-
   displayTask = () => {
     const cardList = document.querySelector('.card-list');
     cardList.replaceChildren();
@@ -93,7 +92,7 @@ export default class Task {
           if (id.toString() === myinpt) {
             item.description = e.target.value;
           }
-        }); 
+        });
         localStorage.setItem('task', JSON.stringify(this.todoList));
       });
     });
