@@ -1,5 +1,4 @@
 import Activity from './activity.js';
-// import { completeTask } from './status.js';
 
 export default class Task {
   constructor() {
@@ -31,6 +30,7 @@ export default class Task {
       document.querySelector('#task').value = '';
     }
 
+
   displayTask = () => {
     const cardList = document.querySelector('.card-list');
     cardList.replaceChildren();
@@ -39,7 +39,7 @@ export default class Task {
       const cardList = document.querySelector('.card-list');
 
       let taskCompleted;
-      if (item.completed === true) {
+      if (item.completed) {
         taskCompleted = 'checked';
       } else {
         taskCompleted = '';
@@ -80,9 +80,8 @@ export default class Task {
     this.todoList.forEach((item, id) => {
       item.index = id + 1;
     });
-    localStorage.setItem('task', JSON.stringify(this.todoList));
-    this.displayTask();
     this.storeTask();
+    this.displayTask();
   }
 
   updateTask = () => {
@@ -94,8 +93,7 @@ export default class Task {
           if (id.toString() === myinpt) {
             item.description = e.target.value;
           }
-        });
-
+        }); 
         localStorage.setItem('task', JSON.stringify(this.todoList));
       });
     });
@@ -104,7 +102,7 @@ export default class Task {
    completeTask = (id) => {
      this.todoList.forEach((item) => {
        if (item.index - 1 === id) {
-         if (item.completed === false) {
+         if (!item.completed) {
            item.completed = true;
          } else {
            item.completed = false;
