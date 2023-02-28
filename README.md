@@ -125,7 +125,7 @@ A new developer can get the project from my Github repo link i shall provide.
 To get a local copy up and running, follow these steps.
 
 
-go to https://github.com/stephenkati/To-Do-List.git
+go to https://github.com/stephenkati/To-Do-List-Review.git
 
 clone or download the project
 
@@ -145,7 +145,7 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-run git clone https://github.com/stephenkati/To-Do-List.git
+run git clone https://github.com/stephenkati/To-Do-List-Review.git
 
 or
 
@@ -196,7 +196,7 @@ The project is not yet deployed.
 
 - GitHub: [@githubhandle](https://github.com/stephenkati)
 - Twitter: [@twitterhandle](https://twitter.com/Stephen57913145)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/stephen-katuli-a92752251/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/stephen-katuli/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -218,7 +218,7 @@ The project is not yet deployed.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/stephenkati/To-Do-List/issues).
+Feel free to check the [issues page](https://github.com/stephenkati/To-Do-List-Review/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -235,6 +235,9 @@ If you like this project please reach out to me on my social media, hire me for 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thankmy Microverse team and my coding partners for their support and guidance.
+
+I would like to thank  Kelly Sikkema for allowing me to use this amazing background image <a href="https://unsplash.com/@kellysikkema?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kelly Sikkema</a> on <a href="https://unsplash.com/s/photos/to-do-list?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"></a>
+  
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -267,7 +270,7 @@ No presentation done yet.
 
 ## 📝 License <a name="license"></a>
 
-This project is <a href="https://github.com/stephenkati/To-Do-List/blob/main/LICENSE"> MIT  licensed.</a>
+This project is <a href="https://github.com/stephenkati/To-Do-List-Review/blob/feature/LICENSE"> MIT  licensed.</a>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
